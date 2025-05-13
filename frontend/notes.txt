@@ -1,0 +1,23 @@
+mongod --dbpath ~/data/db
+
+6)I would like to implement the below frontend suggestions that mentioned earlier by you.
+Implementing the frontend using Next.js with:
+Dashboard for HR teams
+Employee profiles and status tracking
+Project matching interface
+Training recommendations
+7)When I try http://localhost:3000, I got "This site can't be reached" message
+8)create api.ts for endpoints to the pages and crud for employees, projects, trainings.
+  And the routes for the same need to be created at the backend as well.
+9)Each page need to be created with db data
+
+
+
+Create a Resource recommendation engine where when we upload a pdf with client's requirement, 
+it should provide suitable employees who are in bench that can be used. 
+Consider all the below keypoints as well.
+Ingests & normalizes the JD using NLP + taxonomy lookup.
+Filters by availability, cost, location.
+Scores & ranks across skill fit and past project relevance.
+Explains results and learns from HR feedback.
+Recommends upskilling for close misses and tracks analytics on redeployment efficiency.
